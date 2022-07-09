@@ -4,3 +4,6 @@ class Condominium:
         self.number = 3668
 
 
+Condominium1 = Condominium()
+print(type(Condominium1))
+print(Condominium1)
