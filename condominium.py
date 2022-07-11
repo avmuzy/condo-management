@@ -7,5 +7,3 @@ class Condominium:
         self.month_tax = month_tax
 
 
-
-
