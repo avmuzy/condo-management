@@ -7,3 +7,4 @@ class Condominium:
         self.month_tax = month_tax
 
 
+suite201 = Condominium(suite=201, month_fee=350, month_tax=50)
