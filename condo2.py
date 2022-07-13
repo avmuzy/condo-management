@@ -22,4 +22,14 @@ class Apartment(Condominium):
         print('Apartment')
 
 
-suite401 = Apartment(401, 350, 50, 'Apartment', 44)
+suite201 = Apartment('201', 300, 50, 'Apartment', 44)
+suite202 = Apartment('202', 300, 50, 'Apartment', 44)
+suite301 = Apartment('301', 300, 50, 'Apartment', 44)
+suite302 = Apartment('302', 300, 50, 'Apartment', 44)
+suite401 = Apartment('401', 300, 50, 'Apartment', 44)
+suite402 = Apartment('402', 300, 50, 'Apartment', 44)
+suite501 = Apartment('501', 300, 50, 'Apartment', 44)
+suite502 = Apartment('502', 300, 50, 'Apartment', 44)
+store01 = Apartment('Store 01', 350, 50, 'Store', 21)
+store02 = Apartment('Store 02', 350, 50, 'Store', 21)
+store03 = Apartment('Store 03', 350, 50, 'Store', 26)
