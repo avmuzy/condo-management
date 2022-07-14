@@ -22,6 +22,17 @@ class Apartment(Condominium):
         print('Apartment')
 
 
+class Store(Condominium):
+    def __init__(self, store, month_fee, month_tax, kind, area):
+        Condominium.__init__(self)
+        print('Store created')
+        self.store = store
+        self.month_fee = month_fee
+        self.month_tax = month_tax
+        self.kind = kind
+        self.area = area
+
+
 suite201 = Apartment('201', 300, 50, 'Apartment', 44)
 suite202 = Apartment('202', 300, 50, 'Apartment', 44)
 suite301 = Apartment('301', 300, 50, 'Apartment', 44)
