@@ -54,3 +54,5 @@ total_tax = (suite201.month_tax + suite202.month_tax + suite301.month_tax + suit
              + suite402.month_tax + suite501.month_tax + suite502.month_tax + store01.month_tax + store02.month_tax
              + store03.month_tax)
 print(total_tax)
+total_revenue = total_fee + total_tax
+print(total_revenue)
