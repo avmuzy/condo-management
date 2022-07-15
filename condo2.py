@@ -49,3 +49,8 @@ total_fee = (suite201.month_fee + suite202.month_fee + suite301.month_fee + suit
              + suite402.month_fee + suite501.month_fee + suite502.month_fee + store01.month_fee + store02.month_fee
              + store03.month_fee)
 print(total_fee)
+
+total_tax = (suite201.month_tax + suite202.month_tax + suite301.month_tax + suite302.month_tax +suite401.month_tax
+             + suite402.month_tax + suite501.month_tax + suite502.month_tax + store01.month_tax + store02.month_tax
+             + store03.month_tax)
+print(total_tax)
