@@ -44,3 +44,8 @@ suite502 = Apartment('502', 300, 50, 'Apartment', 44)
 store01 = Store('Store 01', 350, 50, 'Store', 21)
 store02 = Store('Store 02', 350, 50, 'Store', 21)
 store03 = Store('Store 03', 350, 50, 'Store', 26)
+
+total_fee = (suite201.month_fee + suite202.month_fee + suite301.month_fee + suite302.month_fee + suite401.month_fee
+             + suite402.month_fee + suite501.month_fee + suite502.month_fee + store01.month_fee + store02.month_fee
+             + store03.month_fee)
+print(total_fee)
