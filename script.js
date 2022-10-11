@@ -1,11 +1,11 @@
 function calc() {
   let apto201 = document.getElementById('201');
-  let aptoNum = Number(apto201.value);
+  let aptoNum201 = Number(apto201.value);
   let tx201 = document.getElementById('tx201');
-  let txNum = Number(tx201.value);
-  let total = aptoNum + txNum;
+  let txNum201 = Number(tx201.value);
+  let total201 = aptoNum201 + txNum201;
   let res201 = document.getElementById('res201');
-  res201.innerHTML = `${total}`;
+  res201.innerHTML = `${total201}`;
 
   let apto202 = document.getElementById('202');
   let aptoNum202 = Number(apto202.value);
@@ -23,7 +23,7 @@ function calc() {
   let res301 = document.getElementById('res301');
   res301.innerHTML = `${total301}`;
 
-  let apto302 = document.getElementById('301');
+  let apto302 = document.getElementById('302');
   let aptoNum302 = Number(apto302.value);
   let tx302 = document.getElementById('tx302');
   let txNum302 = Number(tx302.value);
@@ -62,4 +62,16 @@ function calc() {
   let total502 = aptoNum502 + txNum502;
   let res502 = document.getElementById('res502');
   res502.innerHTML = `${total502}`;
+
+  let totalapartamentos =
+    total201 +
+    total202 +
+    total301 +
+    total302 +
+    total401 +
+    total402 +
+    total501 +
+    total502;
+  let totapto = document.querySelector('div#totapto');
+  totapto.innerHTML = `Total apartamentos: ${totalapartamentos}`;
 }
