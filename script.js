@@ -54,4 +54,12 @@ function calc() {
   let total501 = aptoNum501 + txNum501;
   let res501 = document.getElementById('res501');
   res501.innerHTML = `${total501}`;
+
+  let apto502 = document.getElementById('502');
+  let aptoNum502 = Number(apto502.value);
+  let tx502 = document.getElementById('tx502');
+  let txNum502 = Number(tx502.value);
+  let total502 = aptoNum502 + txNum502;
+  let res502 = document.getElementById('res502');
+  res502.innerHTML = `${total502}`;
 }
