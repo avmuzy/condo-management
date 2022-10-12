@@ -63,6 +63,30 @@ function calc() {
   let res502 = document.getElementById('res502');
   res502.innerHTML = `${total502}`;
 
+  let loja1 = document.getElementById('loja1');
+  let lojaNum1 = Number(loja1.value);
+  let txloja1 = document.getElementById('txloja1');
+  let txNumloja1 = Number(txloja1.value);
+  let totalloja1 = lojaNum1 + txNumloja1;
+  let resloja1 = document.getElementById('resloja1');
+  resloja1.innerHTML = `${totalloja1}`;
+
+  let loja2 = document.getElementById('loja2');
+  let lojaNum2 = Number(loja2.value);
+  let txloja2 = document.getElementById('txloja2');
+  let txNumloja2 = Number(txloja2.value);
+  let totalloja2 = lojaNum2 + txNumloja2;
+  let resloja2 = document.getElementById('resloja2');
+  resloja2.innerHTML = `${totalloja2}`;
+
+  let loja3 = document.getElementById('loja3');
+  let lojaNum3 = Number(loja3.value);
+  let txloja3 = document.getElementById('txloja3');
+  let txNumloja3 = Number(txloja3.value);
+  let totalloja3 = lojaNum3 + txNumloja3;
+  let resloja3 = document.getElementById('resloja3');
+  resloja3.innerHTML = `${totalloja3}`;
+
   let totalapartamentos =
     total201 +
     total202 +
