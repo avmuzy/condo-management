@@ -87,6 +87,10 @@ function calc() {
   let resloja3 = document.getElementById('resloja3');
   resloja3.innerHTML = `${totalloja3}`;
 
+  let totallojas = totalloja1 + totalloja2 + totalloja3;
+  let totlojas = document.getElementById('totlojas');
+  totlojas.innerHTML = `Total lojas : ${totallojas}`;
+
   let totalapartamentos =
     total201 +
     total202 +
