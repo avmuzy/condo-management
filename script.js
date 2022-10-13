@@ -102,4 +102,8 @@ function calc() {
     total502;
   let totapto = document.querySelector('div#totapto');
   totapto.innerHTML = `Total apartamentos: ${totalapartamentos}`;
+
+  let totgeral = totalapartamentos + totallojas;
+  let totcondo = document.getElementById('totcondo');
+  totcondo.innerHTML = `Total Condominio: ${totgeral}`;
 }
